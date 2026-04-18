@@ -51,7 +51,7 @@ const Footer = () => {
                                 <div className="logo d-flex justify-content-lg-start justify-content-center">
                                     <Link href="/">
                                         <img
-                                            src="/assets/images/logo-video.gif"
+                                            src="/assets/images/ssvm-anim-white.gif"
                                             className="logo-video"
                                             alt="logo"
                                         />
