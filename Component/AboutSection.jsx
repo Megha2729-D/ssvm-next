@@ -16,7 +16,7 @@ export default function AboutSection() {
                             <div className="about__image">
                                 <div className="about_img_wrapper">
                                     <Image
-                                        src="/assets/images/about-img.jpg"
+                                        src="/assets/images/about-img.webp"
                                         alt="About SSVM"
                                         fill
                                         className="about_img"
