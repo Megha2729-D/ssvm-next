@@ -140,19 +140,17 @@ const VolleyBallAnimation = () => {
                 {/* Center */}
                 <div ref={centerTextRef} className="center-text">
                     <div className="row justify-content-center">
-
                         <div className="col-lg-6">
                             <img src="/assets/images/ssvm-founder-anim.gif" className="w-100" alt="" />
                         </div>
-
-                        <div className="col-lg-12 text-center">
-                            <h2 className="main_heading_about">Dr. Manimekalai Mohan</h2>
-                            <h2 className="main_heading_about">Founder, SSVM Institutions</h2>
+                        <div className="left_fonder_content col-lg-12 d-flex flex-column align-items-center justify-content-center">
+                            <div data-aos="fade-up">
+                                <h2 className="main_heading_about">Dr. Manimekalai Mohan</h2>
+                                <h2 className="main_heading_about">Founder, SSVM Institutions</h2>
+                            </div>
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </section>
     );

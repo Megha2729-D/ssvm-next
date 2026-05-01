@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 @font-face {
   font-family: "Sneaker";
   src: url("../public/assets/fonts/Sneaker.woff2") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/assets/fonts/Montserrat-VariableFont_wght.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

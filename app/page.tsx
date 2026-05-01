@@ -4,9 +4,9 @@ import Hero from "@/Component/Hero";
 import VolleyBallAnimation from "@/Component/VolleyBallAnimation";
 import MarqueeStrip from "@/Component/MarqueeStrip";
 import HorseAnimation from "@/Component/HorseAnimation";
-import SpeakerSwiper from "@/Component/SpeakerSwiper";
+// import SpeakerSwiper from "@/Component/SpeakerSwiper";
 import ArcherScrollAnimation from "@/Component/ArcherScrollAnimation";
-import GuruAward from "@/Component/GuruAward";
+import GuruAwardArchery from "@/Component/GuruAwardArchery";
 import AboutSection from "@/Component/AboutSection";
 import MediaCoverage from "@/Component/MediaCoverage";
 import Highlights from "@/Component/Highlights";
@@ -20,9 +20,9 @@ export default function Page() {
       <VolleyBallAnimation />
       <MarqueeStrip />
       <HorseAnimation />
-      <SpeakerSwiper />
+      {/* <SpeakerSwiper /> */}
       <ArcherScrollAnimation />
-      <GuruAward />
+      <GuruAwardArchery />
       <AboutSection />
       <MediaCoverage />
       <Highlights />

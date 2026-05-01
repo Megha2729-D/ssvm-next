@@ -28,7 +28,9 @@
 }
 
 .archer-text img {
-    width: 285px;
+    width: 285px !important;
+    height: auto !important;
+    object-fit: contain;
 }
 
 .archer-text {

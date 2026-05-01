@@ -84,13 +84,13 @@ const Footer = () => {
 
                         {/* RIGHT */}
                         <div className="col-lg-6 d-flex justify-content-lg-end justify-content-start">
-                            <div className="footer-block mt-5 mt-lg-0">
+                            <div className="footer-block mt-5 mt-lg-0 d-flex flex-column justify-content-center">
                                 <h4 className="text-c1">CONTACT US</h4>
 
-                                <p className="my-4 d-flex gap-1">
+                                {/* <p className="my-4 d-flex gap-1">
                                     <i className="bi bi-geo-fill text-secondary"></i>
                                     Sf No 72/2, Pattanam, Vellalore Rd, Vaigai Nagar, Singanallur, Coimbatore, Tamil Nadu 641016
-                                </p>
+                                </p> */}
 
                                 <p className="my-4 d-flex gap-1">
                                     <i className="bi bi-envelope-fill text-secondary"></i>
@@ -99,10 +99,10 @@ const Footer = () => {
                                     </a>
                                 </p>
 
-                                <p className="my-4 d-flex gap-1">
+                                {/* <p className="my-4 d-flex gap-1">
                                     <i className="bi bi-telephone-fill text-secondary"></i>
                                     <a href="tel:+919344505000">+91 93445 05000</a>
-                                </p>
+                                </p> */}
                             </div>
                         </div>
 
@@ -113,7 +113,7 @@ const Footer = () => {
             {/* BOTTOM */}
             <div className="footer-bottom">
                 <p className="mb-0 fw-bold">© 2026 . All rights reserved SSVM.</p>
-                <p className="mb-0 fw-bold footer-credit">
+                {/* <p className="mb-0 fw-bold footer-credit">
                     Designed by{" "}
                     <span>
                         <a
@@ -125,7 +125,7 @@ const Footer = () => {
                             IQTechway
                         </a>
                     </span>
-                </p>
+                </p> */}
             </div>
 
             {/* BACK TO TOP */}

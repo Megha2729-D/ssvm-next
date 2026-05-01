@@ -59,14 +59,16 @@ nav {
 
 .nav-links {
     display: flex;
+    gap: 40px;
 }
 
 .nav-links li {
-    color: #000000;
-    list-style: none;
-    font-weight: 600;
-    letter-spacing: 0px;
+    color: #000;
+    letter-spacing: 0;
     cursor: pointer;
+    font-weight: 600;
+    list-style: none;
+    padding: 0;
 }
 
 .nav-item {

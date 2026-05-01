@@ -2,11 +2,14 @@
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import lottie from "lottie-web";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import TitleReveal from "@/Component/TitleReveal";
 import "@/app/styles/archer.css";
+
+const BASE_IMAGE_URL = "https://www.ssvmtransformingindia.com/assets/images/";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -127,7 +130,14 @@ export default function ArcherScrollAnimation() {
             {/* Content */}
             <div className="archery_anim_content">
                 <div ref={textRef} className="archer-text">
-                    <img src="/assets/images/ssvm-student-award.gif" alt="" />
+                    <Image
+                        src={`${BASE_IMAGE_URL}ssvm-student-award.gif`}
+                        alt="SSVM Guru Award"
+                        width={500}
+                        height={500}
+                        unoptimized
+                    />
+                    {/* <img src="/assets/images/ssvm-student-award.gif" alt="" /> */}
 
                     <TitleReveal text="Studentpreneur Awards 2026" className="reveal_heading text-c1" />
                     <p>The Studentpreneur Awards is an initiative that encourages students to start thinking and acting like entrepreneurs early. It gives them a platform to showcase ideas they are actively working on and motivates them to take action instead of just thinking. The goal is to build confidence, real-world skills, and a mindset of creating and solving problems from a young age.</p>
